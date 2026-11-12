@@ -1,0 +1,15 @@
+/* Evergreen theme for the quote tool: overrides only, the embed itself is untouched. */
+:root:root{
+  --brand:#0a5a22; --brand-deep:#043912; --brand-press:#043912; --brand-tint:#eef5ef;
+  --ink:#16211a; --ink-2:#3d4a41; --muted:#66706a; --line:#dbe3da; --field:#cfd8cf; --field-soft:#f3f6f2;
+  --bg-soft:#f3f6f2; --ring:rgba(10,90,34,.3); --ph:#98a39b;
+  --shadow-card:0 30px 70px -28px rgba(0,0,0,.55), 0 8px 22px -16px rgba(0,0,0,.4);
+  --font-display:"Archivo", system-ui, sans-serif;
+}
+#pquote.pquote{box-shadow:0 40px 80px -36px rgba(0,0,0,.6),0 10px 24px -12px rgba(0,0,0,.25);border-color:transparent;max-width:440px;width:100%}
+#pquote .pq-title,#pquote .pq-opt-body b,#pquote .pq-price,#pquote .pqs-trigger,#pquote .pqs-search input{color:#16211a}
+#pquote .pq-lightning{background:#e3efe5}
+#pquote .pq-check{border-color:#c5d3c7}
+#pquote .pq-btn,#pquote .btn-primary,#pquote .btn-call{box-shadow:0 12px 26px -14px rgba(4,57,18,.8)}
+#pquote .pq-field input:focus,#pquote .pq-field select:focus,#pquote .pqs-host.pqs-open .pqs-trigger{box-shadow:0 0 0 3px rgba(10,90,34,.14)}
+#pquote .pq-opt input:focus-visible+.pq-opt-body{box-shadow:0 0 0 3px rgba(10,90,34,.18)}
